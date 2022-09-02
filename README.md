@@ -3,21 +3,12 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/stminer/stminer/main/image/logo-1.png" alt="Logo" width="200" height="200">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-<!-- ![Github stars](https://img.shields.io/github/stars/stminer/stminer.svg) -->
-
-# STMinerProxy
+# LYMinerProxy
 
   <p align="center">
     <h3>:zap: 原创编写，功能强大，性能强劲。支持无损BTC ETC ETH LTC ERG CFX RVN SERO XMR CKB BEAM ALPH KASPA等多个币种抽水，不爆内存，体验拉满，8000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</h3>
-    <img src="./image/jt1.png" alt="Logo">
-    <a href="https://kdocs.cn/l/slPG1q488Trc"></a>
-    TG：<a href="https://t.me/stminer">https://t.me/stminer</a>
+
     <h3>法律不支持的地区此程序无法使用，请自觉遵守当地相关政策，使用此软件造成的法律问题，一概与软件作者无关。</h3>
   </p>
 </div>
@@ -27,7 +18,7 @@
 ```
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
-bash <(curl -s -L https://raw.githubusercontent.com/stminer/stminer/main/linux-install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/linux-install.sh)
 ```
 # 导航
 
@@ -142,20 +133,8 @@ bash <(curl -s -L https://raw.githubusercontent.com/stminer/stminer/main/linux-i
 </ol>
 
 <span id="uplog"></span>
-# 更新日志
 
-```
-2.8.0
-[重要更新] [安全性更新]
-修复了一个严重的安全漏洞, 更新完记得修改【账号】和【密码】
-2.7.9
-增加了dcr抽水（兼容模式）
-优化了etc、kaspa、bch、erg里一个可能发生错误的问题
-2.7.8
-增加了针对某一台设备的抽水比例修改
-增加了备用抽水地址
 
-```
 
 # 功能
 
