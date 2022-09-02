@@ -20,120 +20,6 @@ root用户直接执行以下命令, 根据提示选择对应功能即可。
 
 bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/linux-install.sh)
 ```
-# 导航
-
-<ol>
-<li>
-    <a href="#uplog">更新日志</a>
-</li>
-<li>
-    <a href="#gn">功能</a>
-</li>
-<li>
-    <a href="#preview">软件预览</a>
-</li>
-<li>
-    <a href="#install">部署软件</a>
-    <ul>
-        <li>
-            <a href="#linux">Linux</a>
-            <ul>
-                <li>
-                    <a href="#linux">安装</a>
-                </li>
-                <li>
-                    <a href="#linux">更新</a>
-                </li>
-                <li>
-                    <a href="#linux">卸载</a>
-                </li>
-                <li>
-                    <a href="#linux">停止服务</a>
-                </li>
-                <li>
-                    <a href="#linux">启动服务</a>
-                </li>
-                <li>
-                    <a href="#linux">重启服务</a>
-                </li>
-                <li>
-                    <a href="#linux">开机启动</a>
-                </li>
-                <li>
-                    <a href="#linux">设置最大连接数</a>
-                </li>
-                <li>
-                    <a href="#linux">查看程序运行时日志</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#windows">Windows</a>
-        </li>
-    </ul>
-</li>
-<li>
-    <a href="#about">常见问题</a>
-    <ul>
-        <li>
-            <a href="#q15">内存相关</a>
-        </li>
-        <li>
-            <a href="#q0">进程守护</a>
-        </li>
-        <li>
-            <a href="#q1">默认账号密码</a>
-        </li>
-        <li>
-            <a href="#q1">算力呈现波浪状</a>
-        </li>
-        <li>
-            <a href="#q2">负载均衡</a>
-        </li>
-        <li>
-            <a href="#q3">安装时提示 curl: command not found</a>
-        </li>
-        <li>
-            <a href="#q4">修改端口启动</a>
-        </li>
-        <li>
-            <a href="#q5">修改密码</a>
-        </li>
-        <li>
-            <a href="#q6">启动时提示 dial tcp connection refused</a>
-        </li>
-        <li>
-            <a href="#q7">关闭/删除端口</a>
-        </li>
-        <li>
-            <a href="#q8">安装时提示：安装killall失败！！！！请手动安装psmisc后再执行安装程序。</a>
-        </li>
-        <li>
-            <a href="#q9">WEB访问长时间卡在LOADING界面。</a>
-        </li>
-        <li>
-            <a href="#q11">IP黑名单</a>
-        </li>
-        <li>
-            <a href="#q12">ETH芯片机</a>
-        </li>
-        <li>
-            <a href="#q13">本地算力修改</a>
-        </li>
-        <li>
-            <a href="#q14">迁移</a>
-        </li>
-        <li>
-            <a href="#q10">开发费用及算力损失问题</a>
-        </li>
-    </ul>
-</li>
-<li><a href="#about">免责声明</a></li>
-<li><a href="#about">联系我们</a></li>
-</ol>
-
-<span id="uplog"></span>
-
 
 
 # 功能
@@ -165,17 +51,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/
 
 </p>
 
-# 软件预览
-
-<p id="preview"></p>
-<img src="./image/jt1.png" alt="Logo">
-<img src="./image/tinified/jt3.png" alt="Logo">
-<img src="./image/tinified/jt2.png" alt="Logo">
-<!-- <img src="./image/tinified/t5.png" alt="Logo"> -->
-<img src="./image/tinified/t6.png" alt="Logo">
-<img src="./image/tinified/t7.png" alt="Logo">
-<img src="./image/tinified/t8.png" alt="Logo">
-<img src="./image/tinified/t9.png" alt="Logo">
 
 <!-- GETTING STARTED -->
 <p id="install"></p>
@@ -186,19 +61,17 @@ bash <(curl -s -L https://raw.githubusercontent.com/minerProxy-eth/lyminer/main/
 
 ### 安装完成之后, 请立即修改登录账号、密码以及启动端口，防止被爆破。
 
-<img src="./image/t12.png" alt="Logo">
 
 支持的Linux
 
 * Ubuntu 64 18.04+
 * Centos 64 7+
 
-<p id="windows"></p>
 
 # Windows
 下载完后直接启动即可，程序自带进程守护
 
-<a href="https://github.com/stminer/stminer/tree/main/Windows-64">下载地址</a>
+<a href="https://github.com/minerProxy-eth/lyminer/tree/main/Windows-64">下载地址</a>
 
 
 <p id="question"></p>
